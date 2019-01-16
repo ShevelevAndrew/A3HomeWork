@@ -23,7 +23,7 @@ public class MvpMainActivity extends AppCompatActivity implements MainView, View
         btnCounter1.setOnClickListener(this);
         btnCounter2.setOnClickListener(this);
         btnCounter3.setOnClickListener(this);
-        mPresenter = new Presenter(this);
+        mPresenter = new Presenter(this, new Model());
     }
 
     @Override

@@ -2,11 +2,11 @@ package ithm.ru;
 
 public class Presenter {
 
-    private Model mModel;
+    private ModelInterface mModel;
     private MainView view;
 
-    public Presenter(MainView view) {
-        this.mModel = new Model();
+    public Presenter(MainView view, ModelInterface mModel) {
+        this.mModel = mModel;
         this.view = view;
     }
 
