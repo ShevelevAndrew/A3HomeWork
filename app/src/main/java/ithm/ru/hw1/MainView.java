@@ -1,4 +1,4 @@
-package ithm.ru;
+package ithm.ru.hw1;
 
 public interface MainView {
     void setSeconds(int value);

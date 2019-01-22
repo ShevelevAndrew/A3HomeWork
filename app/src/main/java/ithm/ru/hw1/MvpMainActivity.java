@@ -1,9 +1,11 @@
-package ithm.ru;
+package ithm.ru.hw1;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+
+import ithm.ru.R;
 
 
 public class MvpMainActivity extends AppCompatActivity implements MainView, View.OnClickListener {
