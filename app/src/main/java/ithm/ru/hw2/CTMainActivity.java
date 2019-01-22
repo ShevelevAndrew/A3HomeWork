@@ -28,7 +28,6 @@ public class CTMainActivity extends AppCompatActivity {
         initUI();
 
         changeListener();
-
     }
 
     private void changeListener() {
