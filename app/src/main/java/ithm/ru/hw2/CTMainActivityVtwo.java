@@ -32,11 +32,8 @@ public class CTMainActivityVtwo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ctmain);
-
         initUI();
-
         createTextChangeObservable();
-
 
     }
 
@@ -93,8 +90,6 @@ public class CTMainActivityVtwo extends AppCompatActivity {
             }
         };
         observable.subscribe(observer);
-
-
     }
 
 
