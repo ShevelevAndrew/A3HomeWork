@@ -27,35 +27,6 @@ public class CTMainActivityVtwo extends AppCompatActivity {
     private Observable<String> o;
 
 
-    public void examle() {
-        //*******
-        o = Observable.just("Hello");
-        observerone = new DisposableObserver<String>() {
-            @Override
-            public void onNext(String s) {
-                Log.d("Dto", "onNext" + s);
-            }
-
-            @Override
-            public void onComplete() {
-                Log.d("Dto", "onComplete");
-            }
-
-            @Override
-            public void onError(Throwable t) {
-                Log.d("Dto", "onError");
-            }
-        };
-        o.subscribe(observerone);
-
-
-    }
-
-    public void examle1() {
-        o = Observable.just(" **HelloWorld**");
-        //o.subscribe(observerone);
-    }
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -120,7 +91,6 @@ public class CTMainActivityVtwo extends AppCompatActivity {
             public void onComplete() {
                 Log.d("hw2", "onCompleted");
             }
-
         };
         observable.subscribe(observer);
 
@@ -131,8 +101,6 @@ public class CTMainActivityVtwo extends AppCompatActivity {
     private void initUI() {
         inputText = findViewById(R.id.input_text);
         changedText = findViewById(R.id.changed_text);
-
     }
-
 
 }
