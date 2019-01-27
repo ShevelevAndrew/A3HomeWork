@@ -20,6 +20,7 @@ import ithm.ru.R;
 public class CTMainActivityVtwo extends AppCompatActivity {
     DisposableObserver<String> observerone;
     private EditText inputText;
+    private EditText mInputText;
     private TextView changedText;
     private Observable<String> observable;
     private Observer<String> observer;
