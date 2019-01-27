@@ -11,14 +11,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".hw3.LFMainActivity"></activity>
-        <activity android:name=".hw2.CTMainActivityVtwo">
+        <activity android:name=".hw3.LFMainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+        <activity android:name=".hw2.CTMainActivityVtwo"></activity>
         <activity android:name=".hw1.MvpMainActivity"></activity>
     </application>
 
